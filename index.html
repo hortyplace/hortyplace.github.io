@@ -1,0 +1,170 @@
+<!--
+	Atlas du Place Underscore, adapté du /r/place Atlas dont la licence est fournie
+	ci-dessous.
+
+	icensed under the GNU Affero General Public License Version 3
+	This program is free software: you can redistribute it and/or modify
+	it under the terms of the GNU Affero General Public License as
+	published by the Free Software Foundation, either version 3 of the
+	License, or (at your option) any later version.
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+-->
+<!--
+	========================================================================
+	The /r/place Atlas
+	
+	An Atlas of Reddit's /r/place, with information to each
+	artwork	of the canvas provided by the community.
+	
+	Copyright (C) 2017 Roland Rytz <roland@draemm.li>
+	Licensed under the GNU Affero General Public License Version 3
+	This program is free software: you can redistribute it and/or modify
+	it under the terms of the GNU Affero General Public License as
+	published by the Free Software Foundation, either version 3 of the
+	License, or (at your option) any later version.
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+	For more information, see:
+	https://draemm.li/various/place-atlas/license.txt
+	
+	========================================================================
+-->
+
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>
+			Pixel Underscore - Atlas
+		</title>
+
+		<meta name="description" content="L'atlas du place de la communauté d'Horty.">
+		<meta name="author" content="redst0">
+
+		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no">
+		<meta name="mobile-web-app-capable" content="yes">
+
+		<link href="./css/style.css?version=1.0.32" rel="stylesheet" type="text/css" media="all">
+	</head>
+
+	<body>
+		<div id="wrapper">
+			<header>
+				<a href="./">
+					<img id="logo" src="./img/logo.png" height="50" width="50" alt="Logo">
+					<h1 id="title">Pixel Underscore</h1>
+				</a>
+			</header>
+			
+			<div id="container">
+				<div id="loading">
+					<div id="loadingContent">
+						<div></div><br>
+						<span>&nbsp;&nbsp;Patientez...</span>
+						<noscript>
+							<p>Désole, l'atlas a besoin de Javascript pour fonctionner.</p>
+							<p><a href="https://github.com/hortyplace/hortyplace.github.io">Voir la source sur GitHub</a></p>
+						</noscript>
+					</div>
+				</div>
+				<canvas id="linesCanvas"></canvas>
+				<div id="innerContainer">
+					<canvas id="highlightCanvas" width="1000" height="1000"></canvas>
+					<img id="image" src="./img/place.png" width="1000" height="1000" alt="Canvas final du Place Underscore." />
+				</div>
+			</div>
+
+			<div id="entriesListContainer">
+				<nav>
+					<a id="drawLink" href="./?mode=draw">Contribuer</a>
+				</nav>
+				<div id="entriesListControls">
+					<input autofocus id="searchList" type="text" placeholder="Search...">
+					<span id="atlasSize"></span>
+					<div id="sortContainer"><label>Trier :</label>
+						<select id="sort">
+							<option value="shuffle">Aléatoire</option>
+							<option value="relevant" id="relevantOption" disabled>Relevant</option>
+							<option value="alphaAsc">↓ Alphabétique</option>
+							<option value="alphaDesc">↑ Alphabétique</option>
+							<option value="newest">Plus récent</option>
+							<option value="oldest">Plus vieux</option>
+						</select>
+					</div>
+				</div>
+				<div id="entriesList">
+					
+				</div>
+			</div>
+			<div id="entriesListBackground"></div>
+
+			<button id="hideListButton"></button>
+
+			<div id="zoomControls"><button title="Zoom In" id="zoomInButton"></button><button title="Reset View" id="zoomResetButton"></button><button title="Zoom Out" id="zoomOutButton"></button></div>
+
+			<div id="drawControlsContainer">
+				<a id="drawBackButton" href="./">&lt; Retour à l'atlas</a>
+				<div id="hint">
+					<p>Comment proposer une nouvelle entrée dans l'atlas :</p>
+					<p>Cliquez sur l'image pour commencer à dessiner le contour. Quand vous êtes satisfaits du résultat, cliquez sur Continuer ou appuyez sur Entrée.</p>
+					<p>Vous pourrez alors fournir des informations à propos de votre nouvelle entrée.</p>
+					<p>Finalement, copiez le texte généré et collez-le dans un message dans le fil dédié sur le discord d'Horty.</p>
+				</div>
+				<div id="drawControls">
+					<div>
+						<button id="undoButton" disabled>Undo</button>
+						<button disabled id="redoButton">Redo</button>
+					</div>
+					<button disabled id="finishButton">Continuer (Entrée)</button>
+					<button id="resetButton">Reset</button>
+					<label id="highlightUnchartedLabel" title="Highlight uncharted areas of the map" class="checkboxLabel">
+						<input type="checkbox" id="highlightUncharted"> Cacher les éléments déjà entrés
+					</label>
+					<div id="objectInfo">
+						<label for="nameField">Nom</label>
+						<input id="nameField" type="text" value="" placeholder="Un titre court">
+						<label for="descriptionField">Description (optionnelle)</label>
+						<textarea id="descriptionField" placeholder="Une description"></textarea>
+						<label for="websiteField">Site web (optionnel)</label>
+						<input id="websiteField" type="text" value="" placeholder="https://example.com">
+						<div id="infoButtons">
+							<button id="cancelButton">Annuler</button>
+							<button id="exportButton">OK</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<button class="hidden" id="closeObjectsListButton"></button>
+			<div id="objectsList">
+			</div>
+
+			<div id="exportOverlay" class="overlay">
+				<div id="exportWindow">
+					<p>Copiez le texte ci-dessous et postez-le dans le fil dédié sur le discord d'Horty.
+					<p>Je l'ajouterai sous peu.</p>
+					<textarea cols="50" rows="5" id="exportString"></textarea>
+					<button id="exportCloseButton">Fermer</button>
+				</div>
+			</div>
+
+			<div id="author">
+				Source sur <a target="_blank" href="https://github.com/hortyplace/hortyplace.github.io">GitHub</a>.
+			</div>
+		</div>
+
+		<script type="text/javascript" src="./js/pointInPolygon.js?version=1.0"></script>
+		<script type="text/javascript" src="./js/atlas.js?version=1.0.50"></script>
+		<script type="text/javascript" src="./js/view.js?version=1.0.4"></script>
+		<script type="text/javascript" src="./js/overlap.js?version=1.0.4"></script>
+		<script type="text/javascript" src="./js/draw.js?version=1.0.3"></script>
+		<script type="text/javascript" src="./js/main.js?version=1.0.3"></script>		
+	</body>
+</html>
+
+
+
+
