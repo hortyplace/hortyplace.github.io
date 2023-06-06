@@ -384,7 +384,7 @@ function initView(){
 
 		if(!sortedAtlas){
 			sortedAtlas = atlas.concat();
-			document.getElementById("atlasSize").innerHTML = "The Atlas contains "+sortedAtlas.length+" entries.";
+			document.getElementById("atlasSize").innerHTML = "L'atlas contient "+sortedAtlas.length+" entrées.";
 		}
 
 		if(filter){
@@ -394,9 +394,9 @@ function initView(){
 					|| value.description.toLowerCase().indexOf(filter) !== -1
 				);
 			});
-			document.getElementById("atlasSize").innerHTML = "Found "+sortedAtlas.length+" entries.";
+			document.getElementById("atlasSize").innerHTML = sortedAtlas.length+" entrées trouvées.";
 		} else {
-			document.getElementById("atlasSize").innerHTML = "The Atlas contains "+sortedAtlas.length+" entries.";
+			document.getElementById("atlasSize").innerHTML = "L'atlas contient "+sortedAtlas.length+" entrées.";
 		}
 
 		if(sort === null){
