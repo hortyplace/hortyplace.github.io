@@ -7989,6 +7989,78 @@ var atlas = [
     			997.5
     		]
     	]
+    },
+	{
+        "id": 67,
+        "name": "Fleure ",
+        "description": "Fleure crée par texi pour décorer la zone du sonic",
+        "website": "",
+        "center": [
+            557.5,
+            670.5
+        ],
+        "path": [
+            [
+                545.5,
+                661.5
+            ],
+            [
+                570.5,
+                661.5
+            ],
+            [
+                567.5,
+                680.5
+            ],
+            [
+                546.5,
+                681.5
+            ]
+        ]
+    },
+	{
+        "id": 68,
+        "name": "Course Sonic",
+        "description": "Fresque Minecraft :\nCourse representant la course soinc crée par zilan et klaf sur le serveur minecraft d'horty",
+        "website": "",
+        "center": [
+            643.5,
+            675.5
+        ],
+        "path": [
+            [
+                514.5,
+                684.5
+            ],
+            [
+                515.5,
+                653.5
+            ],
+            [
+                743.5,
+                653.5
+            ],
+            [
+                745.5,
+                675.5
+            ],
+            [
+                801.5,
+                678.5
+            ],
+            [
+                795.5,
+                696.5
+            ],
+            [
+                701.5,
+                695.5
+            ],
+            [
+                519.5,
+                695.5
+            ]
+        ]
     }
 ];
 
