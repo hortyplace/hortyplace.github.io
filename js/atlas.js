@@ -7992,8 +7992,8 @@ var atlas = [
     },
 	{
         "id": 67,
-        "name": "Fleure ",
-        "description": "Fleure crée par texi pour décorer la zone du sonic",
+        "name": "Fleur",
+        "description": "Fleur crée par texi pour décorer la zone du sonic",
         "website": "",
         "center": [
             557.5,
@@ -8059,6 +8059,38 @@ var atlas = [
             [
                 519.5,
                 695.5
+            ]
+        ]
+    },
+	{
+        "id": 69,
+        "name": "Drapeau lesbienne",
+        "description": "Bravo les lesbiennes",
+        "website": "",
+        "center": [
+            700.5,
+            831.5
+        ],
+        "path": [
+            [
+                721.5,
+                819.5
+            ],
+            [
+                721.5,
+                843.5
+            ],
+            [
+                679.5,
+                842.5
+            ],
+            [
+                679.5,
+                819.5
+            ],
+            [
+                721.5,
+                819.5
             ]
         ]
     }
