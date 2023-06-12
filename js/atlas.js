@@ -8589,6 +8589,478 @@ var atlas = [
     			529.5
     		]
     	]
+    },
+	{
+        "id": 72,
+        "name": "GNOU",
+        "description": "Gnou.txt a été créé par zilan654 aux tous débuts du place, c'est l'une des premières écriture présente sur le place, elle représente juste l'empire des gnous, un running gag sur chanel #Minecraft",
+        "website": "",
+        "center": [
+            497.5,
+            498.5
+        ],
+        "path": [
+            [
+                486.5,
+                494.5
+            ],
+            [
+                508.5,
+                494.5
+            ],
+            [
+                508.5,
+                502.5
+            ],
+            [
+                486.5,
+                502.5
+            ]
+        ]
+    },
+	{
+        "id": 73,
+        "name": "Blue corner",
+        "description": "coin bleu, ref au r/place ",
+        "website": "",
+        "center": [
+            995.5,
+            995.5
+        ],
+        "path": [
+            [
+                990.5,
+                990.5
+            ],
+            [
+                999.5,
+                990.5
+            ],
+            [
+                999.5,
+                999.5
+            ],
+            [
+                990.5,
+                999.5
+            ]
+        ]
+    },
+	{
+        "id": 74,
+        "name": "centre de la fresque",
+        "description": "",
+        "website": "",
+        "center": [
+            500.5,
+            499.5
+        ],
+        "path": [
+            [
+                499.5,
+                499.5
+            ],
+            [
+                499.5,
+                498.5
+            ],
+            [
+                500.5,
+                498.5
+            ],
+            [
+                500.5,
+                499.5
+            ]
+        ]
+    },
+	{
+    	"id": 75,
+    	"name": "Sonic",
+    	"description": "Sonic ball",
+    	"website": "",
+    	"center": [
+    		758.5,
+    		688.5
+    	],
+    	"path": [
+    		[
+    			749.5,
+    			690.5
+    		],
+    		[
+    			751.5,
+    			690.5
+    		],
+    		[
+    			751.5,
+    			689.5
+    		],
+    		[
+    			755.5,
+    			689.5
+    		],
+    		[
+    			758.5,
+    			690.5
+    		],
+    		[
+    			759.5,
+    			690.5
+    		],
+    		[
+    			760.5,
+    			691.5
+    		],
+    		[
+    			761.5,
+    			692.5
+    		],
+    		[
+    			763.5,
+    			692.5
+    		],
+    		[
+    			764.5,
+    			691.5
+    		],
+    		[
+    			765.5,
+    			690.5
+    		],
+    		[
+    			766.5,
+    			689.5
+    		],
+    		[
+    			766.5,
+    			687.5
+    		],
+    		[
+    			765.5,
+    			686.5
+    		],
+    		[
+    			763.5,
+    			685.5
+    		],
+    		[
+    			763.5,
+    			684.5
+    		],
+    		[
+    			760.5,
+    			684.5
+    		],
+    		[
+    			759.5,
+    			685.5
+    		],
+    		[
+    			759.5,
+    			687.5
+    		],
+    		[
+    			758.5,
+    			686.5
+    		],
+    		[
+    			758.5,
+    			684.5
+    		],
+    		[
+    			755.5,
+    			684.5
+    		],
+    		[
+    			755.5,
+    			686.5
+    		],
+    		[
+    			753.5,
+    			685.5
+    		],
+    		[
+    			752.5,
+    			686.5
+    		],
+    		[
+    			750.5,
+    			686.5
+    		],
+    		[
+    			750.5,
+    			688.5
+    		],
+    		[
+    			748.5,
+    			688.5
+    		],
+    		[
+    			748.5,
+    			690.5
+    		]
+    	]
+    },
+	{
+    	"id": 76,
+    	"name": "Bravo les gays",
+    	"description": "drapeau gay à la verticale qui fut à l'origine d'une course pour savoir quelle bande arriverait en première en bas. Les bleus gagnèrent mais il est à noter que le vert menthe battit le vert terrain de foot avec un panache certain.",
+    	"website": "",
+    	"center": [
+    		895.5,
+    		500.5
+    	],
+    	"path": [
+    		[
+    			888.5,
+    			0.5
+    		],
+    		[
+    			888.5,
+    			999.5
+    		],
+    		[
+    			902.5,
+    			999.5
+    		],
+    		[
+    			902.5,
+    			0.5
+    		],
+    		[
+    			888.5,
+    			0.5
+    		]
+    	]
+    },
+	{
+    	"id": 77,
+    	"name": "Bravo les lesbiennes",
+    	"description": "Drapeau lesbienne à la verticale traversant l'adversité",
+    	"website": "",
+    	"center": [
+    		148.5,
+    		454.5
+    	],
+    	"path": [
+    		[
+    			141.5,
+    			0.5
+    		],
+    		[
+    			141.5,
+    			908.5
+    		],
+    		[
+    			155.5,
+    			908.5
+    		],
+    		[
+    			155.5,
+    			0.5
+    		],
+    		[
+    			141.5,
+    			0.5
+    		]
+    	]
+    },
+	{
+    	"id": 78,
+    	"name": "Bravo les gays",
+    	"description": "drapeau gay",
+    	"website": "",
+    	"center": [
+    		156.5,
+    		256.5
+    	],
+    	"path": [
+    		[
+    			0.5,
+    			249.5
+    		],
+    		[
+    			0.5,
+    			263.5
+    		],
+    		[
+    			311.5,
+    			263.5
+    		],
+    		[
+    			311.5,
+    			249.5
+    		],
+    		[
+    			0.5,
+    			249.5
+    		]
+    	]
+    },
+	{
+    	"id": 79,
+    	"name": "Bravo les non-binaires",
+    	"description": "drapeau non-binaire à la verticale",
+    	"website": "",
+    	"center": [
+    		566.5,
+    		497.5
+    	],
+    	"path": [
+    		[
+    			560.5,
+    			0.5
+    		],
+    		[
+    			571.5,
+    			0.5
+    		],
+    		[
+    			571.5,
+    			993.5
+    		],
+    		[
+    			560.5,
+    			993.5
+    		],
+    		[
+    			560.5,
+    			0.5
+    		]
+    	]
+    },
+	{
+    	"id": 80,
+    	"name": "Bravo les trans",
+    	"description": "Drapeau transgenre",
+    	"website": "",
+    	"center": [
+    		452.5,
+    		173.5
+    	],
+    	"path": [
+    		[
+    			0.5,
+    			166.5
+    		],
+    		[
+    			0.5,
+    			180.5
+    		],
+    		[
+    			904.5,
+    			180.5
+    		],
+    		[
+    			904.5,
+    			166.5
+    		],
+    		[
+    			0.5,
+    			166.5
+    		]
+    	]
+    },
+	{
+    	"id": 81,
+    	"name": "Drapô de la pride (version à 6 bandes)",
+    	"description": "",
+    	"website": "",
+    	"center": [
+    		500.5,
+    		61.5
+    	],
+    	"path": [
+    		[
+    			0.5,
+    			55.5
+    		],
+    		[
+    			0.5,
+    			66.5
+    		],
+    		[
+    			999.5,
+    			66.5
+    		],
+    		[
+    			999.5,
+    			55.5
+    		],
+    		[
+    			0.5,
+    			55.5
+    		]
+    	]
+    },
+	{
+    	"id": 82,
+    	"name": "49.3 en feu",
+    	"description": "il était dans Pi, on l'a vu, on a frappé",
+    	"website": "",
+    	"center": [
+    		879.5,
+    		43.5
+    	],
+    	"path": [
+    		[
+    			871.5,
+    			37.5
+    		],
+    		[
+    			885.5,
+    			37.5
+    		],
+    		[
+    			885.5,
+    			50.5
+    		],
+    		[
+    			874.5,
+    			50.5
+    		],
+    		[
+    			873.5,
+    			42.5
+    		],
+    		[
+    			871.5,
+    			38.5
+    		]
+    	]
+    },
+	{
+    	"id": 83,
+    	"name": "Drapeau de la pride (version à 6 bandes)",
+    	"description": "",
+    	"website": "",
+    	"center": [
+    		680.5,
+    		440.5
+    	],
+    	"path": [
+    		[
+    			877.5,
+    			435.5
+    		],
+    		[
+    			877.5,
+    			446.5
+    		],
+    		[
+    			483.5,
+    			446.5
+    		],
+    		[
+    			483.5,
+    			434.5
+    		],
+    		[
+    			877.5,
+    			434.5
+    		]
+    	]
     }
 ];
 
