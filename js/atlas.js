@@ -4273,7 +4273,7 @@ var atlas = [
 	{
     	"id": 44,
     	"name": "Cascade ",
-    	"description": "cascade réalisée par Benson, afin de remplir la zone entre l'épée et la ppkourtelle, le but étant de créer une continuité avec la rivière de dessus",
+    	"description": "cascade réalisée par Denrave, afin de remplir la zone entre l'épée et la ppkourtelle, le but étant de créer une continuité avec la rivière de dessus",
     	"website": "",
     	"center": [
     		510.5,
