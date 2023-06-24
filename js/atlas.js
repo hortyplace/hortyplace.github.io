@@ -13962,6 +13962,142 @@ var atlas = [
     			844.5
     		]
     	]
+    },
+	{
+        "id": 97,
+        "name": "Papillon LiS",
+        "description": "Un papillon qui sort de sa photo polaroid, avec le nom de famille de Max Caulfield en bas de celle-ci, parce que ouais jouez à Life is Strange c'est trop bien.",
+        "website": "",
+        "center": [
+            693.5,
+            196.5
+        ],
+        "path": [
+            [
+                675.5,
+                213.5
+            ],
+            [
+                675.5,
+                181.5
+            ],
+            [
+                686.5,
+                181.5
+            ],
+            [
+                687.5,
+                180.5
+            ],
+            [
+                687.5,
+                178.5
+            ],
+            [
+                688.5,
+                177.5
+            ],
+            [
+                688.5,
+                175.5
+            ],
+            [
+                689.5,
+                175.5
+            ],
+            [
+                690.5,
+                174.5
+            ],
+            [
+                691.5,
+                174.5
+            ],
+            [
+                692.5,
+                175.5
+            ],
+            [
+                694.5,
+                177.5
+            ],
+            [
+                695.5,
+                176.5
+            ],
+            [
+                696.5,
+                178.5
+            ],
+            [
+                698.5,
+                179.5
+            ],
+            [
+                699.5,
+                182.5
+            ],
+            [
+                700.5,
+                181.5
+            ],
+            [
+                712.5,
+                181.5
+            ],
+            [
+                712.5,
+                181.5
+            ],
+            [
+                712.5,
+                213.5
+            ],
+            [
+                712.5,
+                213.5
+            ],
+            [
+                712.5,
+                213.5
+            ],
+            [
+                712.5,
+                213.5
+            ],
+            [
+                675.5,
+                213.5
+            ]
+        ]
+    },
+	{
+        "id": 98,
+        "name": "Drapeaux Pan, Bi, et LesbienX2",
+        "description": "Simplement à noter que ces quatre cases auraient dues être en référence à la team RWBY, de la série d'animation 3D du même nom, mais réalisant qu je n'avaizs clairement pas la place, le projet fut annuler. Il restera inachevé, au même titre que la Sagrada Familia, ou le parcours scolaire de JK Rowling, cette pétasse.",
+        "website": "",
+        "center": [
+            679.5,
+            831.5
+        ],
+        "path": [
+            [
+                637.5,
+                819.5
+            ],
+            [
+                721.5,
+                819.5
+            ],
+            [
+                721.5,
+                843.5
+            ],
+            [
+                637.5,
+                843.5
+            ]
+        ]
     }
 ];
 
